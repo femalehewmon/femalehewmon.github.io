@@ -1,10 +1,9 @@
 html, body {
     background-color: #002b36;
-    height: 90%;
+    height: 100%;
     width: 100%;
     margin: auto;
     position: relative;
-    padding-left:10px;
     font-family: 'Inconsolata';
     color: #d33682;
 }
