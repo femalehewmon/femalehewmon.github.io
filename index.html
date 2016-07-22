@@ -13,11 +13,62 @@
     </head>
 
     <body>
-        <!-- <a href="" alt="Menu" title="Menu"><img class="menu-icon" src="images/menu-icon.svg"alt="Menu"></a> Thanks to iconmonstr, https://iconmonstr.com/menu-1/ -->
-        <div class="centered">
-            <a href="https://github.com/meganvanwelie" alt="Find me on Github" title="Find me on Github"><img class="link-icon" src="images/github-icon.svg"alt="Github"></a> <!--http://dev.bowdenweb.com/a/fonts/symbols/pictonic/svgs/github-01.svg-->
-                meganvanwelie
-            <a href="https://www.linkedin.com/in/megan-van-welie-b31a378a" alt="LinkedIn" title="LinkedIn"><img class="link-icon" src="images/resume-icon.svg"alt="LinkedIn"></a> <!--Thanks to iconmonstr, https://iconmonstr.com/file-22/ -->
+        <input id="menuBtn" class="menu-icon" type="image"
+                src="images/menu-icon.svg"
+                alt="Menu"
+                onclick="openMenu();">
+
+        <div id="menuDiv" class="menu">
+            <input id="menuBtn" class="menu-icon" type="image"
+                src="images/menu-icon.svg"
+                alt="Menu"
+                onclick="closeMenu();">
+                <a href="http://www.meganvanwelie.com/point-location">
+                    Kirkpatrick's Point Location</a>
         </div>
+
+        <div class="centered">
+        <div id="main">
+            <a href="https://github.com/meganvanwelie"
+                alt="Find me on Github"
+                title="Find me on Github">
+                <img class="link-icon"
+                    src="images/github-icon.svg"
+                    alt="Github"></a>
+
+                meganvanwelie
+
+            <a href="https://www.linkedin.com/in/megan-van-welie-b31a378a"
+                alt="LinkedIn"
+                title="LinkedIn">
+                <img class="link-icon"
+                    src="images/resume-icon.svg"
+                    alt="LinkedIn"></a>
+        </div>
+        </div>
+
     </body>
+
+    <script>
+
+        function toggleMenu(button) {
+            if ( button.value == "open" ) {
+                closeMenu();
+                button.value = "closed";
+            } else {
+                openMenu();
+                button.value = "open";
+            }
+        }
+
+		function openMenu() {
+			document.getElementById("menuDiv").style.width = "500px";
+			document.getElementById("main").style.marginLeft = "500px";
+		}
+
+		function closeMenu() {
+			document.getElementById("menuDiv").style.width = "0";
+			document.getElementById("main").style.marginLeft= "0";
+		}
+    </script>
 </html>
