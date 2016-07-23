@@ -1,4 +1,4 @@
-# [www.meganvanwelie.com](www.meganvanwelie.com)
+# [www.meganvanwelie.com](http://www.meganvanwelie.com)
 
 
 Thanks to the following sources for icons and instruction:
