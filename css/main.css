@@ -24,6 +24,13 @@ html, body {
     vertical-align:middle;
 }
 
+.proj-thumbnail {
+    width: 250px;
+    border: 5px solid black;
+    margin: 50px;
+    vertical-align:middle;
+}
+
 @font-face {
     font-family: 'Inconsolata';
     src: url(https://fonts.googleapis.com/css?family=Inconsolata);
@@ -46,12 +53,11 @@ html, body {
     z-index: 1;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
     background-image: url(../images/logo_x_pattern/logo_x_pattern.png);
 }
 
-.menu a {
-    padding: 8px 8px 8px 32px;
+.menu-list-item {
+    padding: 60px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -60,7 +66,7 @@ html, body {
     font-family: 'Inconsolata';
 }
 
-.menu a:hover, .offcanvas a:focus{
+.menu-list-item a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
 
@@ -70,5 +76,5 @@ html, body {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
+  .menu {padding-top: 15px;}
   .si

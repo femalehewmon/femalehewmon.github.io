@@ -24,7 +24,27 @@
                 alt="Menu"
                 onclick="closeMenu();">
                 <a href="http://www.meganvanwelie.com/point-location">
-                    Kirkpatrick's Point Location</a>
+                    <img id="kirkpatrick" class="proj-thumbnail"
+                        src="images/kp1.png"
+                        alt="Kirkpatrick's Point Location"></a>
+                </a>
+                <div class="centered">
+                    <a href="https://github.com/meganvanwelie"
+                        alt="Find me on Github"
+                        title="Find me on Github">
+                        <img id="github" class="link-icon"
+                            src="images/github-icon.svg"
+                            alt="Github"></a>
+
+                        meganvanwelie
+
+                    <a href="https://www.linkedin.com/in/megan-van-welie-b31a378a"
+                        alt="LinkedIn"
+                        title="LinkedIn">
+                        <img id="resume" class="link-icon"
+                            src="images/resume-icon.svg"
+                            alt="LinkedIn"></a>
+                </div>
         </div>
 
         <div class="centered">
@@ -32,7 +52,7 @@
             <a href="https://github.com/meganvanwelie"
                 alt="Find me on Github"
                 title="Find me on Github">
-                <img class="link-icon"
+                <img id="github" class="link-icon"
                     src="images/github-icon.svg"
                     alt="Github"></a>
 
@@ -41,7 +61,7 @@
             <a href="https://www.linkedin.com/in/megan-van-welie-b31a378a"
                 alt="LinkedIn"
                 title="LinkedIn">
-                <img class="link-icon"
+                <img id="resume" class="link-icon"
                     src="images/resume-icon.svg"
                     alt="LinkedIn"></a>
         </div>
@@ -62,8 +82,8 @@
         }
 
 		function openMenu() {
-			document.getElementById("menuDiv").style.width = "500px";
-			document.getElementById("main").style.marginLeft = "500px";
+			document.getElementById("menuDiv").style.width = "100%";
+			document.getElementById("main").style.marginLeft = "100%";
 		}
 
 		function closeMenu() {
