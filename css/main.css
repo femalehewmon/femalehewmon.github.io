@@ -1,11 +1,14 @@
 html, body {
-    background-color: #002b36;
+    /*Public Domain, https://commons.wikimedia.org/w/index.php?curid=3022547*/
+    background-image: url("../images/Wallpaper_group-cm-4-small.jpg");
+    background-repeat: repeat;
     height: 100%;
     width: 100%;
     margin: auto;
     position: relative;
     font-family: 'Inconsolata';
-    color: #d33682;
+    font-size: 20px;
+    color: #586e75;
 }
 
 .centered {
@@ -26,7 +29,7 @@ html, body {
 
 @font-face {
     font-family: 'Inconsolata';
-    src: url(https://fonts.googleapis.com/css?family=Inconsolata);
+    src: url(https://fonts.googleapis.com/css?family=Inconsolata:700);
 }
 
 .menu-icon {
@@ -66,7 +69,10 @@ html, body {
 
 #main {
     transition: margin-left .5s;
-    padding: 16px;
+    padding: 15px;
+    background-color:#61657d;
+    background-color:#002b36;
+    border: 1px solid black;
 }
 
 @media screen and (max-height: 450px) {
