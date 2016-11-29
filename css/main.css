@@ -7,8 +7,7 @@ html, body {
     /*Public Domain, https://commons.wikimedia.org/w/index.php?curid=3022547*/
     background-image: url("../images/Wallpaper_group-cm-4-small.jpg");
     background-repeat: repeat;
-    /*color:#61657d;*/
-    color:#000000;
+    color:#61657d;
 }
 
 #full {
